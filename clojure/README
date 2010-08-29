@@ -1,0 +1,7 @@
+This is an example to use DataMapper from Clojure via RedBridge. RedBridge is Java API included in JRuby. Edit clj so that the pathes to clojure.jar and jruby.jar point yours. Then try:
+
+  ./clj redbridge_datamapper.clj
+
+Go JRuby Wiki, http://kenai.com/projects/jruby/pages/RedBridge, for detail about RedBridge. 
+
+Don't forget to install DataMapper gems to your JRuby.

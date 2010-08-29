@@ -1,0 +1,8 @@
+(import '(org.jruby.embed ScriptingContainer PathType))
+(def c (ScriptingContainer.))
+(. c setHomeDirectory "/Users/yoko/Tools/jruby-1.5.1")
+(. c runScriptlet "require 'rubygems'; require 'dm-core'; require 'dm-migrations'")
+(. c runScriptlet "DataMapper.setup(:default, 'sqlite::memory:')")
+(. c runScriptlet PathType/CLASSPATH "category_def.rb")
+(. c runScriptlet PathType/CLASSPATH "categories.rb")
+(. c runScriptlet "p Category.all")

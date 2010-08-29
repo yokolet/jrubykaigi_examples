@@ -1,0 +1,1 @@
+java -cp /Users/yoko/Tools/clojure-1.1.0/clojure.jar:/Users/yoko/Tools/jruby-1.5.1/lib/jruby.jar:. clojure.main $1
