@@ -1,0 +1,15 @@
+Here are examples used in my presentation at JRubyKaigi 2010. The title was "Want To Use Ruby From Java? RedBridge Makes It Pretty Easy!" You can see my slide at
+
+  http://servletgarden-point.appspot.com/slideshow
+
+The slide itself was a demo built on Google App Engine using JRuby on Rails.
+
+When you run Java code, try below.
+
+  mvn install
+  mvn exec:java -Dexec.mainClass="evergreen.HelloWorld"
+  mvn exec:java -Dexec.mainClass="evergreen.JirbSwing"
+  mvn exec:java -Dexec.mainClass="evergreen.InterfaceImpl"
+
+
+When you run Clojure code which uses DataMapper library, please read clojure/README.
